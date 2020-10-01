@@ -41,7 +41,7 @@
             {% if subnode.category == node.slug %}
             <li>
               <a class="sidebar-nav-subitem{% if page.url == subnode.url %} active{% endif %}"
-                href="{{ subnode.url | relative_url }}">{{ subnode.title }}</a>
+                href="{{ subnode.url | relative_url }}">{{ subnode.slug }}</a>
             </li>
             {% endif %}
             {% endfor %}

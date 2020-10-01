@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://lazyren.github.io/sitemap.xml
+Sitemap: https://honor1111.github.io/sitemap.xml

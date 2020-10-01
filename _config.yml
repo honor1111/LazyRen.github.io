@@ -4,7 +4,7 @@
 # IMPORTANT: Set the URL of your site.
 # Set to https://<username>.github.io when hosting on GitHub Pages
 # (unless you are using a custom domain).
-url:                   https://LazyRen.github.io
+url:                   https://honor1111.github.io
 
 # IMPORTANT: Set The "base URL" of your site.
 # When your site sits in a subdirectory, set to /<name of directory>
@@ -20,20 +20,19 @@ baseurl:               ''
 
 # Language of your content in 2-letter code, e.g.: en, de.
 # You may also provide a location, e.g.: en-us, de_AT.
-lang:                  ko-KR, en-US
+lang:                  en-US, ko-KR
 
 # The title of your blog. Used in the sidebar and the browser tab.
-title:                 Lazy Ren
+title:                 Hoony
 
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
 description:           >
-  Work Hard to be Lazy.
-  SW Engineer at Samsung Research.
+ Pung Pang =3 =3
 
 # A shorter description for the sidebar.
-tagline:               >
-  Work Hard to be Lazy.
+#tagline:               >
+# Hm
 
 # A list of keywords for your blog
 keywords:              []
@@ -41,20 +40,18 @@ keywords:              []
 # A (square) logo for your site.
 # If provided, it will be shown at the top of the sidebar.
 # It also used by the `jekyll-seo-tag` plugin.
-logo:                  https://graph.facebook.com/100007955266112/picture?type=large
+logo:                  https://raw.githubusercontent.com/honor1111/Image-repo/master/cat.png
 
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
   # Used by `jekyll-feed`:
-  name:                DaeIn Lee
-  email:               daein0lee@gmail.com
-  picture:  /assets/img/seattle.png
+  name:                Hoon
+  email:               hanor2313@gmail.com
+  picture:  #/assets/img/seattle.png
   social:
-    linkedin:        daein-lee-3b6ba9139
-    github:          lazyren
-    stackoverflow:   4294737
-    email:           daein0lee@gmail.com
-    resume:          /resume/
+    github:          honor1111
+    email:           hanor2313@gmail.com
+#    resume:          /resume/
 
 # Add links to the sidebar.
 # menu:
@@ -122,7 +119,7 @@ font:                  Noto Sans, Helvetica, Arial, sans-serif
 font_heading:          Roboto Slab, Helvetica, Arial, sans-serif
 
 # The font used for code blocks. Expects a string that is a valid CSS font-family value.
-font_code:             Fira Code, Menlo, Monaco, Consolas, monospace;
+font_code:             Fira Code, Menlo, Monaco, Consolas, monospace, Arial;
 
 defaults:
   # You can use this to provide a default accent color and background for
@@ -176,11 +173,11 @@ defaults:
 
 # Set your Google Analytics id to receive `pageview` events.
 # To remove Google Anaylics from your page, remove the line below.
-google_analytics:      UA-68290006-3
+google_analytics:      UA-179413267-1
 
 # Setting a disqus shortname will enable the comment section on
 # pages with `comments: true` in the front matter.
-disqus:                lazyrengithub
+disqus:                honor1111-github-io
 
 # Setting a tinyletter username will enable the newsletter subscription box.
 # PRO version only!
@@ -275,7 +272,7 @@ hydejack:
     dynamic:           true
 
     # Set to `true` to allow visitors to switch between light and dark mode.
-    icon:              false
+    icon:              true
 
   # ⚡️ DANGER ZONE ⚡️
   # ----------------
@@ -293,11 +290,11 @@ hydejack:
 
 collections:
   featured_categories:
-    permalink:         /:name/
+    permalink:         /:title/
     output:            true
 
   featured_tags:
-    permalink:         /tag-:name/
+    permalink:         /:title/
     output:            true
 
   projects:
@@ -343,7 +340,7 @@ plugins:
 # ---------------------------------------------------------------------------------------
 
 # Where you proof that you own this site (used by jekyll-seo-tag)
-google_site_verification: "zIn7l_GwuOi4WnyRQsdhI9Jpn6IAs0SLR_4HG8OZzsM"
+#google_site_verification: "#Need to update"
 # -- or --
 # webmaster_verifications:
 #   google:              <verification-id>
@@ -430,5 +427,5 @@ sass:
 # jekyll-feed settings
 feed:
   categories:
-    - devlog
-    - review
+    - Studies
+    - Life

@@ -2,34 +2,28 @@
 # Must be the same as `author` in `_config.yml`.
 # Change `author1` to your shortname.
 author1:
-  name:              DaeIn Lee
-  email:             daein0lee@gmail.com
+  name:              Hoony
+  email:             hanor2313@gmail.com
 
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about:             |
-    SW Engineer at [Samsung Research](https://research.samsung.com/).<br>
-    Please check my [Resume][resume] to find out more about me!<br>
-
-    [resume]: /resume/
+    Application Engineer at *[SK hynix](http://www.skhynix.com/)*.
 
   # This photo will be used in the about section
   picture:
-    path:            https://graph.facebook.com/100007955266112/picture?type=large
+    path:            https://github.com/honor1111/Image-repo/blob/master/cat.png?raw=true
     # srcset is optional, but can be used to provide higher res versions for retina displays
     srcset:
-      1x:            https://graph.facebook.com/100007955266112/picture?type=normal
-      2x:            https://graph.facebook.com/100007955266112/picture?type=large
+      1x:            https://github.com/honor1111/Image-repo/blob/master/cat.png?raw=true
+      #2x:            https://github.com/honor1111/Image-repo/blob/master/cat.png?raw=true
 
   # Social media icons in sidebar
   # Comment/uncommet to show/hide
   # Rearrange to change the order in which they appear
   social:
-    linkedin:        daein-lee-3b6ba9139
-    github:          lazyren
-    stackoverflow:   4294737
-    email:           lazy0ren@gmail.com
-    resume:          /resume/
+    github:          honor1111
+    email:           hanor2313@gmail.com
     # rss:             https://lazyren.github.io/feed.xml
     # facebook:        <username>
     # google:          <number>
