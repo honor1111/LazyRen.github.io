@@ -429,3 +429,5 @@ feed:
   categories:
     - Studies
     - Life
+
+theme: jekyll-theme-cayman
