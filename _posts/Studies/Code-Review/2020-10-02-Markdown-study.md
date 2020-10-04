@@ -14,11 +14,10 @@ image: https://upload.wikimedia.org/wikipedia/commons/4/48/Markdown-mark.svg
  * [Intro](#Intro) 
  * [Design](#Design)
     * [Line](#Line)
-    * [Header](#Header)
     * [Font](#Font)
+    * [Header](#Header)
     * [Footnote](#Footnote)
     * [Quote](#Quote)
-    * [Line](#Line)
  * [Tricks](#)
     * [Image](#Image)
     * [Code](#Code)
@@ -57,6 +56,40 @@ Markdown looks like text file, but
 Markdown
 ```Markdown[SPACE x 2]```  
 Markdown  
+
+### *Font* <a id="Font"></a>
+
+| *__Syntax__*  | *__Result__*  |*__Remark__*  |
+|:-------------:|:-------------:|:-------------:|
+| ```__Bold__ ```     |   __Bold__ |Markdown|
+| ```*Italic*```     |      *Italic*      |Markdown|
+| ```_Italic_```     |      _Italic_      |Markdown|
+| ```___*Bold-Italic*___```      |      __*Bold-Italic*__      |Markdown|
+| ```___Bold-Italic___```      |      ___Bold-Italic___      |Markdown|
+|```~~Strikethrough~~```|~~Strikethrough~~| Markdown
+
+> 
+ _one time under score is Italic_  
+ __two times under score is Bold__  
+ ___three times under score is Bold and Italic___  
+
+<br>
+As i said, markdown is quite simple. To coloring text, using *__html__* .
+
+| *__Syntax__*  | *__Result__*  |*__Remark__*  |
+|:-------------:|:-------------:|:-------------:|
+|```<span style="color:skyblue">SkyBlue</span>```|<span style="color:skyblue">SkyBlue</span>|Html|
+|```<b><span style="color:skyblue">SkyBlue</span>```|<b><span style="color:skyblue">SkyBlue</span>|Html with ```<b>```|
+|```<i><span style="color:skyblue">SkyBlue</span>```|<i><span style="color:skyblue">SkyBlue</span>|Html with ```<i>```|
+|```<b><i><span style="color:skyblue"><B><I>SkyBlue</span>```|<b><i><span style="color:skyblue">SkyBlue</span>|Html with ```<B><I>```|
+
+> _Upper & lower character effect same._
+  _Other html usages will be uploaded soon..._
+
+
+
+
+<br>
 
 ### *Header* <a id="Header"></a>
 
@@ -107,31 +140,22 @@ Markdown
 
 <br>  
 
-### *Font* <a id="Font"></a>
-
-| *__Syntax__*  | *__Result__*  |*__Remark__*  |
-|:-------------:|:-------------:|:-------------:|
-| ```__Bold__ ```     |   __Bold__ |Markdown|
-| ```*Italic*```     |      *Italic*      |Markdown|
-| ```___*Bold-Italic*___```      |      __*Bold-Italic*__      |Markdown|
-|```<span style="color:skyblue">SkyBlue</span>```|<span style="color:skyblue">SkyBlue</span>|Html|
-
-<br>
-
 ### *Footnote* <a id="Footnote"></a>
 Footnote [^1]
 
 ### *Quote* <a id="Quote"></a>
 René Descartes said,
-> Cogito, ergo sum ( *I think, therefore I am* )  
+> 1. Cogito, ergo sum.
+>> 2. I think, therefore I am.
+>>> 3. 나는 생각한다, 고로 존재한다.
 
-### *Line* <a id="Line"></a>
+
 
 <br>
 ***
 <br>
 
-## *Trick* <a id="Trick"></a>
+# *Trick* <a id="Trick"></a>
 
 > From here, let's handle some useful tricks for markdown.
 
@@ -164,26 +188,68 @@ René Descartes said,
 
 ### *Code* <a id="Code"></a>
 
+There are 2 ways for Code block
+
+
+* Using ``` at the head and tail of code.
+
+<pre><code>```language
+
+code
+
+```</code></pre>
+
+<pre><code>```python
+# python 
+for idx, val in enumerate(some_list):
+   print(idx, val)
+```</code></pre>
+
+
+
+```python
+# python 
+for idx, val in enumerate(some_list):
+   print(idx, val)
+``` 
+
+<pre><code>```go
+// go
+for idx, val := range some_list{
+   fmt.Println(idx, val)
+}
+```</code></pre>
+
+```go
+// go
+for idx, val := range some_list{
+   fmt.Println(idx, val)
+}
+``` 
+
+how to 
 
 ### *Table* <a id="Table"></a>
 
-Align :--- 
-
+Left :--- 
+Mid :---:
+Right : ---:
+()
 ```
 | Align Left  |  Align Mid  | Align Right  |
-| :-----      | :-----:     | -----:       |
+|   :---      | :-----:     | -----:       |
 |     *1*     |     *1*     |     *1*      |
 |    __2__    |    __2__    |    __2__     |
 |      3      |      3      |      3       |
 ```
 
 | Align Left  |  Align Mid  | Align Right  |
-| :-----      | :-----:     | -----:       |
+|   :---      | :-----:     | -----:       |
 |     *1*     |     *1*     |     *1*      |
 |    __2__    |    __2__    |    __2__     |
 |      3      |      3      |      3       |
 
-Actually, making table is quite boring stuff, try [Table Generater](https://www.tablesgenerator.com/markdown_tables).
+Actually, making table is quite boring stuff, [Table Generater](https://www.tablesgenerator.com/markdown_tables) may help you.
 
 
 
