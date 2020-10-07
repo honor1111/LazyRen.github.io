@@ -5,7 +5,7 @@ slug: Code-Review
 category: Studies
 menu: false
 submenu: true
-order: 2
+order: 3
 description: >
    *Review codes.*
 ---

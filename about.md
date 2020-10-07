@@ -11,21 +11,16 @@ order: 1
 
 Hello, My blog is under construction.  
 
+Belows are my posts
+<!--posts-->
 
-***
 
-<!--posts_list-->
-
-***
-
-## h2
-
-_Italic Indent_
-
-> “Indent”
-
+Belows are Study Topics in my interests
+<!--projects-->
 
 
 ***
+
+
 
 <!--author-->

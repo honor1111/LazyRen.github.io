@@ -5,7 +5,7 @@ slug: Algorithm
 category: Studies
 menu: false
 submenu: true
-order: 1
+order: 2
 description: >
    *Algorithm theory and implementation.*
 ---

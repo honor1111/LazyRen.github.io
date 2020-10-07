@@ -271,4 +271,10 @@ If you want to try to write *__Markdown__* at Visual Code,
 
 You could try [Markdown Tutorial](https://www.markdowntutorial.com/) 
 
+
+
+
 [^1]: Footnote 1
+
+
+<!--author-->

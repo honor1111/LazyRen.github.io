@@ -18,6 +18,7 @@ layout: base
 ---
 
 <div class="page">
+  <meta http-equiv="refresh" content="0; url={{ page.redirect.to }}">
   <h1 class="page-title">{{ site.data.strings.redirecting | default:"Redirecting…" }}</h1>
-  <p class="lead"><a href="{{ page.redirect.to }}">{{ page.redirect.to }}</a></p>
+  <p class="lead"></p><a href="{{ page.redirect.to }}">{{ page.redirect.to }}</a></p>
 </div>
