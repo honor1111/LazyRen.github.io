@@ -6,12 +6,11 @@ show_collection: Computer_Vision
 date: 6 Oct 2020
 category: Studies
 image: /assets/img/projects/Adversarial-attacks/thumbnail.jpg
-order: 3
 description: >
    *Computer Vision*
 links:
-   -  title: Home
-      url: ../
+   -  title: Studies
+      url: ../../
 ---
 <br/>
 

@@ -7,6 +7,4 @@ submenu: true
 order: 2
 description: >
  *What i am studied, studying.*
-redirect_from:
-  - /posts/
 ---

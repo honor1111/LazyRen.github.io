@@ -79,7 +79,7 @@ copyright:             © 2020. All rights reserved.
 
 # Format of the permalinks
 # permalink:             /blog/:categories/:year-:month-:day-:title/
-permalink:             none
+permalink:             /:categories/:title/
 
 # Pagination configuration (used by the `blog` layout)
 paginate:              10
@@ -290,16 +290,15 @@ hydejack:
 
 collections:
   featured_categories:
-    permalink:         /:title/
+    permalink:         /:categories/:title/
     output:            true
 
   featured_tags:
-    permalink:         /:title/
+    permalink:         /:categories/:slug/
     output:            true
 
   projects:
-    #permalink:         /:title/ 
-    permalink:         /projects/:path/
+    permalink:         /:categories/:title/
     output:            true
 
 

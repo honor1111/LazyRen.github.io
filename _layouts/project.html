@@ -27,7 +27,7 @@ layout: base
       {% endif %}
 
       {% if parent %}
-        <a href="{{ "../Topics/" | relative_url  }}" class="flip-title" property="genre">{{ parent.title }}</a>
+        <a href="{{ "../" }}" class="flip-title" property="genre">{{ parent.title }}</a>
       {% endif %}
 
       {% unless site.hydejack.hide_dates %}

@@ -6,12 +6,11 @@ show_collection: DeepLearning
 category: Studies
 date: 6 Oct 2020
 image: /assets/img/projects/ReLU/thumbnail.jpg
-order: 3
 description: >
    *Deep Learning Neural Network*
 links:
-   -  title: Home
-      url: ../
+   -  title: Studies
+      url: ../../
 ---
 
 # ReLU

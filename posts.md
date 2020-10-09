@@ -4,6 +4,4 @@ title: Posts
 description: >
   All the posts in blog.
 grouped: true
-redirect_to:
-  - /Studies/
 ---
