@@ -2,7 +2,7 @@
 layout: tag-list
 title: Algorithm
 slug: Algorithm
-category: Studies
+category: studies
 menu: false
 submenu: true
 order: 2

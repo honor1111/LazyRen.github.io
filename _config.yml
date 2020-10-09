@@ -290,15 +290,19 @@ hydejack:
 
 collections:
   featured_categories:
-    permalink:         /:categories/:title/
+    permalink:         /:name/
     output:            true
 
   featured_tags:
-    permalink:         /:categories/:slug/
+    permalink:         /:path
+    output:            true
+
+  posts:
+    permalink:         /:path
     output:            true
 
   projects:
-    permalink:         /:categories/:title/
+    permalink:         /:path
     output:            true
 
 

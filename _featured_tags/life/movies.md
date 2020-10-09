@@ -1,11 +1,11 @@
 ---
 layout: tag-list
-title: Food
-slug: Food
-category: Life
+title: Movies
+slug: Movies
+category: life
 menu: false
 submenu: true
-order: 2
+order: 1
 description: >
-   *I made, ate.*
+   *I saw*
 ---

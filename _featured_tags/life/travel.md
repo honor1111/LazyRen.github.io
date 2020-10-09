@@ -2,7 +2,7 @@
 layout: tag-list
 title: Travel
 slug: Travel
-category: Life
+category: life
 menu: false
 submenu: true
 order: 4

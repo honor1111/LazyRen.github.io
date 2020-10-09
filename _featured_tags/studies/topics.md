@@ -2,7 +2,7 @@
 layout: projects
 title: Topics
 slug: Topics
-category: Studies
+category: studies
 menu: false
 submenu: true
 order: 1

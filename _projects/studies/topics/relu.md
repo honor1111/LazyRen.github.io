@@ -3,14 +3,14 @@ layout: project
 title: ReLU
 slug: ReLU
 show_collection: DeepLearning
-category: Studies
+category: studies
 date: 6 Oct 2020
 image: /assets/img/projects/ReLU/thumbnail.jpg
 description: >
    *Deep Learning Neural Network*
 links:
    -  title: Studies
-      url: ../../
+      url: ../
 ---
 
 # ReLU

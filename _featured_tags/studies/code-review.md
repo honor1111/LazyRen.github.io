@@ -2,7 +2,7 @@
 layout: tag-list
 title: Code-Review
 slug: Code-Review
-category: Studies
+category: studies
 menu: false
 submenu: true
 order: 3

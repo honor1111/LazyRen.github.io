@@ -2,7 +2,7 @@
 layout: post
 title: "Markdown study"
 subtitle: "Markdown syntax study"
-category: Studies
+category: studies
 tags: Code-Review
 image: https://upload.wikimedia.org/wikipedia/commons/4/48/Markdown-mark.svg
 

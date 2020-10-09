@@ -2,7 +2,7 @@
 layout: tag-list
 title: Useful-items
 slug: Useful-items
-category: Studies
+category: studies
 menu: false
 submenu: true
 order: 4

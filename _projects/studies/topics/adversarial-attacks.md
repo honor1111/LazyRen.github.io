@@ -4,13 +4,14 @@ title: Adversarial attacks
 slug: Adversarial-attacks
 show_collection: Computer_Vision
 date: 6 Oct 2020
-category: Studies
+category: studies
+tags: Topics
 image: /assets/img/projects/Adversarial-attacks/thumbnail.jpg
 description: >
    *Computer Vision*
 links:
    -  title: Studies
-      url: ../../
+      url: ../
 ---
 <br/>
 
