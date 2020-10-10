@@ -79,7 +79,7 @@ copyright:             © 2020. All rights reserved.
 
 # Format of the permalinks
 # permalink:             /blog/:categories/:year-:month-:day-:title/
-permalink:             /:categories/:title/
+permalink:             /:categories/:title
 
 # Pagination configuration (used by the `blog` layout)
 paginate:              10
@@ -191,7 +191,7 @@ disqus:                honor1111-github-io
 hydejack:
   # Configure the order of complementary content on blog posts
   # post_addons:         [about, newsletter, related, random, comments]
-  post_addons:         [about, comments]
+  post_addons:         [about, other, comments]
 
   # Configure the order of complementary content on project pages
   # project_addons:      [about, newsletter, other, comments]
@@ -431,7 +431,7 @@ sass:
 # jekyll-feed settings
 feed:
   categories:
-    - Studies
-    - Life
+    - studies
+    - life
 
 theme: jekyll-theme-cayman

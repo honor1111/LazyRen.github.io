@@ -1,8 +1,6 @@
 ---
 layout: project
 title: Adversarial attacks
-slug: Adversarial-attacks
-show_collection: Computer_Vision
 date: 6 Oct 2020
 category: studies
 tags: Topics
