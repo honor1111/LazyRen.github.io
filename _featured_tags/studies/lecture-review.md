@@ -1,11 +1,12 @@
 ---
 layout: tag-list
-title: Useful-items
-slug: Useful-items
+title: Lecture-Review
+slug: Lecture-Review
 category: studies
 menu: false
 submenu: true
 order: 4
 description: >
-   *Useful batch/powershell.. script or settings*
+   *Lectures review*
 ---
+

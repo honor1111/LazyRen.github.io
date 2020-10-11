@@ -389,6 +389,8 @@ jekyll_compose:
         social media previews, etc.
       image:
         path: /assets/img/sidebar-bg.jpg
+      imgpath:
+        url: /assets/img/posts/studies/lecture-review/2020-10-11-cs231n-lec2_cv.png
     projects:
       layout: project
       description: >
