@@ -1,6 +1,11 @@
-
-
-
+---
+layout: post
+title: "Debugging logs"
+subtitle: "Debugging logs"
+category: studies
+tags: Debugging
+# image: 
+---
 
 
 # Python import error
