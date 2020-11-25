@@ -1,6 +1,6 @@
 # Hoony's Blog
 
-## [About Me](https://honor1111.github.io/about/)
+## [About Me](https://honor1111.github.io/About/)
 
 Hello, My blog is under construction.  
 
