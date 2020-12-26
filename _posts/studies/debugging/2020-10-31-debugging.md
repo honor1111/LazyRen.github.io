@@ -7,6 +7,11 @@ tags: Debugging
 # image: 
 ---
 
+# *Debugging logs*
+
+Several debugging logs at Windows, Ubuntu.
+
+<br>
 
 # *Python import error*
 
@@ -115,4 +120,58 @@ sudo passwd root
 
 ```shell
 PATH="$PATH:$HOME/hanor2313/.local/bin"
+```
+
+<br>
+
+# *Python Virtual environment*
+
+*__Install virtualenv__*
+
+```
+python3.7 -m pip install virtualenv
+```
+
+*__Make virtual env.__*
+```bash
+python3.7 -m virtualenv `venv-folder-name`
+```
+
+*__Activate Virtualenv__*
+
+change directory into `venv-folder-name` and type activate.
+
+```cmd
+# change directory
+cd githubio
+```
+
+```shell
+# Ubuntu
+$ source bin/activate
+```
+
+```cmd
+# Windows
+call scripts\activate
+```
+
+If activated successfully, (`venv-folder-name`) is shown at front of command.   
+In below img example, `githubio` is `venv-folder-name`.
+![venv](/assets/img/posts/studies/debugging/md-img-paste-2020-12-26-11-34-00.png)
+
+It's better to double check python version typing like
+```python
+python -V
+```
+![python-version](/assets/img/posts/studies/debugging/md-img-paste-2020-12-26-12-00-00.png)
+
+<br>
+
+Also, you could specify python version like belows.  
+(mind you should install wanted-python-version in advance.)
+```python
+# python3.6
+python3 -m virtualenv venv 
+virtualenv venv --python=python3.6
 ```
