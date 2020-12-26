@@ -166,6 +166,9 @@ python -V
 ```
 ![python-version](/assets/img/posts/studies/debugging/md-img-paste-2020-12-26-12-00-00.png)
 
+
+*To deactivate, just type `deactivate`*
+
 <br>
 
 Also, you could specify python version like belows.  
@@ -175,3 +178,4 @@ Also, you could specify python version like belows.
 python3 -m virtualenv venv 
 virtualenv venv --python=python3.6
 ```
+
