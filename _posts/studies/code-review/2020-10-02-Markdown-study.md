@@ -188,10 +188,7 @@ René Descartes said,
 
 ### *Code* <a id="Code"></a>
 
-There are 2 ways for Code block
-
-
-* Using ``` at the head and tail of code.
+* To make code-block, use ``` at the head and tail of code.
 
 <pre><code>```language
 
@@ -254,6 +251,9 @@ Actually, making table is quite boring stuff, [Table Generater](https://www.tabl
 
 
 *** 
+
+## *Images* 
+  
 
 - Markdown syntax (default size)  
 ```
