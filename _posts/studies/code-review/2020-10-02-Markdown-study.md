@@ -256,10 +256,27 @@ Actually, making table is quite boring stuff, [Table Generater](https://www.tabl
 *** 
 
 - Markdown syntax (default size)  
-![GIF](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
+```
+![GIF](https://drive.google.com/uc?export=view&id=1ji6_t5spHDwKslnbQYmhAsiJ3bh1qc3g)
+```
+![GIF](https://drive.google.com/uc?export=view&id=1ji6_t5spHDwKslnbQYmhAsiJ3bh1qc3g)
 
+<br>
+
+- Markdown syntax2  
+```
+![GIF](https://drive.google.com/uc?export=view&id=1ji6_t5spHDwKslnbQYmhAsiJ3bh1qc3g){: width="30%" height="30%"}
+```  
+![GIF](https://drive.google.com/uc?export=view&id=1ji6_t5spHDwKslnbQYmhAsiJ3bh1qc3g){: width="30%" height="30%"}
+Note, "%" based on *full screen that image can show*, not a original image size.  
+
+<br>
+  
 - html syntax (400x400)  
-<img src="https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif" width="400" height="400" />
+```
+<img src="https://drive.google.com/uc?export=view&id=1ji6_t5spHDwKslnbQYmhAsiJ3bh1qc3g" width="400" height="400" />
+```
+<img src="https://drive.google.com/uc?export=view&id=1ji6_t5spHDwKslnbQYmhAsiJ3bh1qc3g" width="400" height="400" />
 
 
 <br>
