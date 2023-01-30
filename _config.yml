@@ -4,7 +4,7 @@
 # IMPORTANT: Set the URL of your site.
 # Set to https://<username>.github.io when hosting on GitHub Pages
 # (unless you are using a custom domain).
-url:                   https://honor1111.github.io
+url:                   https://rising-stocks.github.io
 
 # IMPORTANT: Set The "base URL" of your site.
 # When your site sits in a subdirectory, set to /<name of directory>
@@ -40,7 +40,7 @@ keywords:              []
 # A (square) logo for your site.
 # If provided, it will be shown at the top of the sidebar.
 # It also used by the `jekyll-seo-tag` plugin.
-logo:                  https://raw.githubusercontent.com/honor1111/Image-repo/master/cat.png
+logo:                  https://raw.githubusercontent.com/rising-stocks/Image-repo/master/cat.png
 
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
@@ -49,7 +49,7 @@ author:
   email:               hanor2313@gmail.com
   picture:  #/assets/img/seattle.png
   social:
-    github:          honor1111
+    github:          rising-stocks
     email:           hanor2313@gmail.com
 #    resume:          /resume/
 
@@ -177,7 +177,7 @@ google_analytics:      UA-179413267-1
 
 # Setting a disqus shortname will enable the comment section on
 # pages with `comments: true` in the front matter.
-disqus:                honor1111-github-io
+disqus:                rising-stocks-github-io
 
 # Setting a tinyletter username will enable the newsletter subscription box.
 # PRO version only!
